@@ -133,5 +133,5 @@ jobs:
       #  CODE WILL BE RUN FROM THE PR.
       ####################################################################################################
       - name: "Cleanup docker"
-        run: ./scripts/ci/cleanup_docker.sh
+        run: chmod +x ./scripts/ci/cleanup_docker.sh && ./scripts/ci/cleanup_docker.sh
   
